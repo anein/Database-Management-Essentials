@@ -1,0 +1,24 @@
+Student(StdNo, StdName, StdAddress, StdCity, StdState, StdZip, StdEmai)
+
+Institution(InstID, InstName, InstMascot)
+
+Lender(LenderNo, LendName)
+
+Loan(LoanNo, StdNo, InstID, LenderNo, ProcDate, DisbMethod, DisbBank, DateAuth, NoteValue, Subsidized, Rate)
+FOREIGN KEY(StdNo) REFERENCES Student
+FOREIGN KEY(InstID) REFERENCES Institution
+FOREIGN KEY(LenderNo) REFERENCES Lender
+StdNo NOT NULL
+InstID NOT NULL
+LenderNo NOT NULL
+
+DisburseLine(LoanNo,DateSent, Amount, OrigFee, GuarFee)
+FOREIGN KEY(LoanNo) REFERENCES Loan
+
+
+Conversion rules
+Use the entity type rule to convert each entity type
+Use the 1-M relationship rule for all relationships
+Use  the M-N relationship rule (not needed).
+Use the identification dependency rule to make LoanNo a component of the PK of DisburseLine. The PK of the DisburseLine table is a combination of LoanNo and DateSent. A not null constraint is not needed for DisburseLine.LoanNo because this column is part of the primary key of DisburseLine.
+
