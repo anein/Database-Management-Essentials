@@ -6,18 +6,18 @@ Assignments of Coursera Course "Database Management Essentials".
 
 **Week 1**: Introduction to Databases and DBMSs; <em>Nothing to commit</em> 
 
-[**Week 2**](../../tree/master/week 2/Assignment): Relational Data Model and the CREATE TABLE Statement;
+[**Week 2**](week%202/Assignment): Relational Data Model and the CREATE TABLE Statement;
 
-[**Week 3**](../../tree/master/week 3/Assignment): Basic Query Formulation with SQL <em>and</em> Extended Query Formulation with SQL;
+[**Week 3**](week%203/Assignment): Basic Query Formulation with SQL <em>and</em> Extended Query Formulation with SQL;
 
-[**Week 4**](../../tree/master/week 4/Assignment): Notation for Entity Relationship Diagrams <em>and</em> ERD Rules and Problem Solving;
+[**Week 4**](week%204/Assignment): Notation for Entity Relationship Diagrams <em>and</em> ERD Rules and Problem Solving;
 
-[**Week 5**](../../tree/master/week 5/): Developing Business Data Models <em>and</em> Data Modeling Problems and Completion of an ERD;
+[**Week 5**](week%205/): Developing Business Data Models <em>and</em> Data Modeling Problems and Completion of an ERD;
 
-[**Week 6**](../../tree/master/week 6/): Schema Conversion;
+[**Week 6**](week%206/): Schema Conversion;
 
-[**Week 7**](../../tree/master/week 7/): Normalization Concepts and Practice.
+[**Week 7**](week%207/): Normalization Concepts and Practice.
 
-
+---
 Good luck.
 
