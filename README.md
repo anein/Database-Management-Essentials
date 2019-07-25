@@ -1,6 +1,6 @@
 # Database-Management-Essentials
 
-Assignments of Coursera Course "Database Management Essentials". ***The documents contain spelling mistakes. 🤗 ***
+Assignments of Coursera Course "Database Management Essentials". ***The documents contain spelling mistakes.*** 🤗 
 
 ##### Assignments:
 
