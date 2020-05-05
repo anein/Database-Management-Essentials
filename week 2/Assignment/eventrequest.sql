@@ -15,6 +15,6 @@ CREATE TABLE EventRequest (
   budNo       CHAR(30),
   CONSTRAINT EventRequestPK PRIMARY KEY (evntNo),
   CONSTRAINT FK_Facility FOREIGN KEY (facNo) REFERENCES Facility (facNo),
-  CONSTRAINT FK_Customer FOREIGN KEY (custNo) REFERENCES Customer (custNo)
-
+  CONSTRAINT FK_Customer FOREIGN KEY (custNo) REFERENCES Customer (custNo),
+  CHECK (status IN('Pending','Denied','Approved') AND estaudience>0)
 );
